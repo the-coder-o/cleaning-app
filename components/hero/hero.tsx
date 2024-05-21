@@ -3,8 +3,8 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='bg flex flex-col text-center items-center pt-[40px] md:pt-0 justify-start md:justify-center'>
-      <h2 className='text-[20px] sm:text-3xl md:text-4xl xl:text-5xl font-bold asap drop-shadow-2xl'>
+    <div className=' py-[80px] bg flex flex-col text-center items-center  md:pt-0 justify-start md:justify-center'>
+      <h2 className='pt-0 md:pt-[80px] text-[20px] sm:text-3xl md:text-4xl xl:text-5xl font-bold asap drop-shadow-2xl'>
       WELCOME TO <span className='text-red-500 drop-shadow-2xl'>MASTER CLEANING</span> PAGE
       </h2>
       <h3 className=' mt-8 md:mt-12 flex flex-col leading-6 md:leading-10 montserrat font-semibold text-[16px] sm:text-[24px] md:text-[30px] xl:text-[34px] pb-4 md:pb-24 drop-shadow-2xl'>We make every effort to provide you with the <span className='text-[16px] sm:text-2xl  xl:text-3xl montserrat drop-shadow-2xl'>BEST CLEANING SERVICE</span></h3>

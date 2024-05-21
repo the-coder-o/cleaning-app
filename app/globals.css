@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+
+.bg{
+    background-image: url('https://static.tildacdn.one/tild6433-3437-4636-b462-663033323164/cleaning-service-wor.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+
+.montserrat{
+    font-family: var(--font-montserrat);
+}
+
+.asap{
+    font-family: var(--font-asap);
+}

@@ -1,12 +1,24 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import {Montserrat, Asap} from 'next/font/google'
 
 import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
 
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const montserrat = Montserrat({
+  subsets:['latin'],
+  weight:['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+  variable:'--font-montserrat'
+})
+
+const asap = Asap({
+  subsets:['latin'],
+  weight:['100','200','300', '400', '500', '600', '700', '800','900'],
+  variable:'--font-asap'
+})
+
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,9 +28,11 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
+      <body className={`${montserrat.variable} ${asap.variable}`}>
       <Header />
-      <body className={inter.className}>{children}</body>
+        {children}
       <Footer />
+        </body>
     </html>
   );
 }

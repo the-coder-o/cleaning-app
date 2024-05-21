@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className={`${montserrat.variable} ${asap.variable}`}>
+      <body className={`${montserrat.variable} ${asap.variable} `}>
       <Header />
         {children}
       <Footer />

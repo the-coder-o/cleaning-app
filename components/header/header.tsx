@@ -15,7 +15,7 @@ const Header = () => {
 
 
   return (
-    <div className='relative max-w-[1450px] w-full m-auto py-[20px]  px-[8px] md:px-[20px] flex items-center justify-between '>
+    <div className='relative container  px-[8px] md:px-[20px] flex items-center justify-between '>
       <div className='flex items-center gap-1 md:gap-2'>
         <Image alt='logo' className='xl:w-[120px] xl:h-[105px] lg:w-[105px] lg:h-[90px] md:w-[90px] md:h-[75px] w-[35px] h-[30px]' width={120} height={105} src={logo} />
         <div className='w-[1px] h-[30px] lg:h-[95px] border-s-2 text-black mr-0 lg:mr-2'></div>

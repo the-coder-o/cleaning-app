@@ -6,7 +6,7 @@ const Locations = () => {
     return (
         <div className=' space-y-24 container'>
             <div className='mt-28 flex items-center justify-evenly relative px-[10px] sm:p-0'>
-                <div className='z-40 absolute sm:relative shadow-2xl bg-[#f5f5f5]/80 mx-[20px] w-[280px] h-[250px] sm:w-[320px]  sm:h-[250px] md:w-[390px] md:h-[350px] lg:w-[500px] lg:h-[390px] xl:w-[540px] xl:h-[430px] px-[20px] flex flex-col text-center justify-center items-center'>
+                <div className='z-40 rem absolute sm:relative shadow-2xl bg-[#f5f5f5]/80 mx-[20px] w-[280px] h-[250px] sm:w-[320px]  sm:h-[250px] md:w-[390px] md:h-[350px] lg:w-[500px] lg:h-[390px] xl:w-[540px] xl:h-[430px] px-[20px] flex flex-col text-center justify-center items-center'>
                     <h4 className='font-bold text-base sm:text-lg md:text-xl lg:text-3xl xl:text-5xl md:pb-[7px] montserrat'>Washington</h4>
                     <center>
                         <div className='w-[200px] sm:w-[220px] md:w-[250px] lg:w-[290px] xl:w-[323px] h-[5px] bg-lime-400 border-s-3 mt-1 sm:mt-3'></div>

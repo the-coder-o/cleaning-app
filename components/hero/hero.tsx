@@ -3,7 +3,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className=' py-[80px]  bg flex flex-col text-center items-center  md:pt-0 justify-start md:justify-center'>
+    <div className=' py-[80px] bg flex flex-col text-center items-center  md:pt-0 justify-start md:justify-center'>
       <h2 className='pt-0 md:pt-[80px] text-[20px] sm:text-3xl md:text-4xl xl:text-5xl font-bold asap drop-shadow-2xl'>
       WELCOME TO <span className='text-red-500 drop-shadow-2xl'>MASTER CLEANING</span> PAGE
       </h2>
@@ -14,9 +14,8 @@ const Hero = () => {
         <h4 className=' text-[18px] sm:text-[20px] md:text-[24px] lg:text-[30px] xl:text-[34px] asap font-semibold'>Choose your location</h4>
         {/* buttons */}
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-6 md:gap-12 pt-2 md:pt-6'>
-        <button className=' shadow-2xl duration-150 transition-all delay-75 outline-none focus:border-none hover:text-white hover:bg-lime-400 hover:outline-none text-[18px] sm:text-base md:text-lg lg:text-xl xl:text-3xl font-semibold bg-white rounded-xl w-full py-2 px-16 montserrat  '>Washington</button>
-        <button className='shadow-2xl duration-150 transition-all delay-75 outline-none focus:border-none hover:text-white hover:bg-lime-400 hover:outline-none text-[18px] sm:text-base md:text-lg lg:text-xl xl:text-3xl font-semibold bg-white rounded-xl w-full py-2 px-16 montserrat  '>Washington</button>
-        <button className='shadow-2xl duration-150 transition-all delay-75 outline-none focus:border-none hover:text-white hover:bg-lime-400 hover:outline-none text-[18px] sm:text-base md:text-lg lg:text-xl xl:text-3xl font-semibold bg-white rounded-xl w-full py-2 px-16 montserrat  '>Washington</button>
+        <Link href={'locations'} className=' shadow-2xl duration-150 transition-all delay-75 outline-none focus:border-none hover:text-white hover:bg-lime-400 hover:outline-none text-[18px] sm:text-base md:text-lg lg:text-xl xl:text-3xl font-semibold bg-white rounded-xl w-full py-2 px-16 montserrat  '>Washington</Link>
+
         </div>
 
         <h5 className='mt-8 text-[18px] sm:text-[20px] md:text-[24px] lg:text-[30px] xl:text-[34px] asap font-semibold'>

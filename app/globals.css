@@ -27,7 +27,7 @@
     background-size: cover;
     background-position: center center;
     width: 100%;
-    height: 100%;
+    height: 120vh;
     background-attachment: fixed;
     
 }
@@ -43,11 +43,41 @@
 }
 
 .border-color{
-    --react-international-phone-border-color:'white'
+    --react-international-phone-border-color:'white';
 }
 .container{
-    width: 100%;
-    max-width: 1450px;
+    width: 1450px;
+    max-width:100% ;
     padding:20px 0 20px 0 ;
     margin: 0 auto;
+}
+.background{
+    background-position:bottom;
+}
+.rem{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+.par-flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.flexbox{
+    flex: 20rem;
+    display: flex;
+    margin: 10px 20px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 10px 20px;
+    align-self: normal;  
+}
+
+.bg-img{
+    background-image:url('https://optim.tildacdn.one/tild3637-3033-4466-b736-303563613664/-/format/webp/18134_2_5.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }

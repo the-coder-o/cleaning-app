@@ -6,6 +6,8 @@ import Services from './components/services';
 import ChooseUs from './components/chooseUs';
 import CompletedJobs from './components/completedJobs';
 import HeroLocation from './components/hero-location';
+import Faq from './components/faq';
+import Opinions from './components/opinions';
 
 
 
@@ -17,6 +19,8 @@ const Page = () => {
       <Services />
       <ChooseUs />
       <CompletedJobs />
+      <Faq />
+      <Opinions />
     </div>
   </div>;
 };

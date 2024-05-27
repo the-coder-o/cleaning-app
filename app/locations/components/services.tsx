@@ -14,7 +14,7 @@ const Services = () => {
         <h2 className='text-[46px] montserrat font-bold pl-12'>Our Services</h2>
       </div>
       <div className="flex w-full mt-12 justify-around">
-        <Link href={'/prices'}>
+        <Link href={'/prices/carpet-cleaning'}>
           <div className="w-[345px] flex-wrap rem  min-h-[500px] rounded-xl  flex  items-center flex-col">
             <Image className='object-cover rounded-b-none' src={card1} alt='card-img' />
             <h4 className='text-[26px] montserrat font-semibold text-center mt-2 w-[120px] leading-7'>Carpet Cleaning</h4>
@@ -25,7 +25,7 @@ const Services = () => {
           </div>
         </Link>
 
-        <Link href={'/prices'}>
+        <Link href={'/prices/upholstery-cleaning'}>
 
           <div className="w-[345px] flex-wrap rem min-h-[500px] rounded-xl  flex items-center flex-col">
             <Image className='object-cover' src={card2} alt='card-img' />
@@ -39,7 +39,7 @@ const Services = () => {
 
         </Link>
 
-        <Link href={'/prices'}>
+        <Link href={'/prices/air-duct'}>
           <div className="w-[345px] flex-wrap rem min-h-[500px] rounded-xl  flex  items-center flex-col">
             <Image src={card3} alt='card-img' className='object-cover' />
             <h4 className='text-[26px] montserrat font-semibold text-center mt-2 w-[147px] leading-7'>Air Duct & Dryer Vent</h4>

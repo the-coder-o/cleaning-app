@@ -8,10 +8,10 @@ import teach from '@/images/svg/teach_1.svg'
 
 const ChooseUs = () => {
     return (
-        <div className='mt-24 bg-img'>
-            <div className="mt-32">
-                <h2 className='montserrat font-bold text-[46px] ml-12'>Why you should choose us</h2>
-                <h4 className='montserrat text-[30px] ml-12'>We work - you rest</h4>
+        <div className='bg-img'>
+            <div className="mt-12 md:mt-32">
+                <h2 className='montserrat font-bold text-[28px] sm:text-[46px] text-center md:text-start ml-0 md:ml-12'>Why you should choose us</h2>
+                <h4 className='montserrat text-[30px] text-center md:text-start ml-0 md:ml-12'>We work - you rest</h4>
 
                 
                 <div className="par-flex mt-24">

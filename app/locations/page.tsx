@@ -20,8 +20,8 @@ const Page = () => {
       <ChooseUs />
       <CompletedJobs />
       <Faq />
-      <Opinions />
     </div>
+      <Opinions />
   </div>;
 };
 

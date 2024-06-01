@@ -31,7 +31,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body className={`${montserrat.variable} ${asap.variable} `}>
       <Header />
         {children}
-      <Footer />
+      {/* <Footer /> */}
         </body>
     </html>
   );

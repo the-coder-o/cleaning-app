@@ -12,7 +12,7 @@ const Modal = () => {
   const [descriptionText, setDescriptionText] = useState('');
   const [phone, setPhone] = useState('');
   const [email, setEmail] = useState('');
-  
+
 
   const handleSubmit = (e: any) => {
     e.preventDefault();
@@ -84,12 +84,13 @@ const Modal = () => {
                   <option>Message</option>
                 </select>
               </div>
-
-              <Button
-                type='submit'
-                className='montserrat text-[8px] lg:text-[12px] xl:text-base mt-[5px] bg-red-500 hover:bg-red-600 outline-none focus:border-none text-white font-semibold rounded-xl py-[2px] px-[4px] md:py-1 md:px-2 xl:py-1 xl:px-3'>
-                Submit
-              </Button>
+              <div className="flex items-center justify-center text-center">
+                <Button
+                  type='submit'
+                  className='montserrat w-[310px] xl:w-[225px] mt-8 transition-all duration-200 montserrat text-base md:text-lg  bg-lime-400 hover:bg-lime-500 outline-none focus:border-none text-white font-semibold rounded-xl py-2 px-[4px] md:py-3 md:px-2 xl:py-2 xl:px-3'>
+                  Submit
+                </Button>
+              </div>
             </form>
           </DialogDescription>
         </DialogHeader>

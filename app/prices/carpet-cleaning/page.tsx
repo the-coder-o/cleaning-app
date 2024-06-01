@@ -1,9 +1,22 @@
+'use client'
 import React from 'react'
+import Hero from './components/carpet-hero'
+import BeforeAfter from './components/before-after'
+import Specialization from './components/specialization'
+import Pricing from './components/pricing'
+
 
 const CarpetCleaning = () => {
   return (
-    <div>CarpetCleaning</div>
+    <div className=''>
+      <Hero/>
+      <div className="container">
+        <BeforeAfter />
+        <Specialization />
+        <Pricing/>
+      </div>
+    </div>
   )
 }
 
-export default CarpetCleaning
+export default CarpetCleaning  

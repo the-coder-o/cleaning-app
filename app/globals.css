@@ -81,3 +81,22 @@
     background-size: cover;
     background-position: center center;
 }
+.opinions-bg{
+    background-position: center center;
+}
+/* .hero-bg{
+    background-image:url('https://static.tildacdn.one/tild3430-3034-4361-a665-353235376662/Group_105_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+} */
+
+.carpet-bg{
+    background-image: url('https://static.tildacdn.one/tild3161-6433-4766-b238-333237666534/photo503536338992009.jpg');
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.rem2{
+    text-shadow:0 0 15px rgba(0, 0, 0, 0.4);
+}

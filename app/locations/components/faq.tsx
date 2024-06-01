@@ -8,8 +8,8 @@ import {
 
 const Faq = () => {
   return (
-    <div className='mt-24'>
-        <h2 className='text-center asap text-[36px] font-semibold'>Frequently Asked Questions</h2>
+    <div className='mt-7 md:mt-24 px-3'>
+        <h2 className='text-center asap text-[24px] md:text-[36px] font-semibold'>Frequently Asked Questions</h2>
         <div className="">
         <Accordion type="single" collapsible className="w-full mt-6">
       <AccordionItem value="item-1">

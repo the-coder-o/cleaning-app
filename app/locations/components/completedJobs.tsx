@@ -16,9 +16,9 @@ import Modal from '@/components/Modal';
 const CompletedJobs = () => {
   return (
     <div className='container'>
-      <h1 className='ml-12 text-[46px] w-[900px] montserrat font-bold'>For over 20 years of service we have completed more than <span className='text-lime-400 '>100 000</span> jobs</h1>
+      <h1 className= 'text-center md:text-start ml-0 xl:ml-12 mt-12 md:mt-24 drop-shadow-2xl text-[28px] sm:text-[36px] md:text-[46px] text-black w-full  max-w-[900px] montserrat font-bold'>For over 20 years of service we have completed more than <span className='text-lime-400 '>100 000</span> jobs</h1>
 
-      <div className=" flex items-center justify-evenly mt-16">
+      <div className=" flex px-2 items-center justify-evenly gap-3 flex-col lg:flex-row mt-16">
         <div className="">
           <ResizablePanelGroup
             direction="horizontal"
@@ -62,7 +62,7 @@ const CompletedJobs = () => {
 
       <div className="flex justify-center text-center items-center">
       <Dialog>
-        <DialogTrigger className='mt-12 transition-all duration-200 montserrat text-[8px] lg:text-[12px] xl:text-base  bg-lime-400 hover:bg-lime-500 outline-none focus:border-none text-white font-semibold rounded-xl py-[2px] px-[4px] md:py-1 md:px-2 xl:py-1 xl:px-3'>BOOK NOW</DialogTrigger>
+        <DialogTrigger className='mt-4 mx-3 md:mt-12 mb-4 w-[320px] xl:w-[225px] flex items-center justify-center  text-center transition-all duration-200 montserrat  text-base md:text-lg  bg-lime-400 hover:bg-lime-500 outline-none focus:border-none text-white font-semibold rounded-xl py-2 px-[4px] md:py-3 md:px-2 xl:py-2 xl:px-3'>BOOK NOW</DialogTrigger>
         <Modal />
       </Dialog>
       </div>

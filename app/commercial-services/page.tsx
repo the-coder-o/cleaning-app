@@ -33,7 +33,7 @@ const Page = () => {
         <div className="">
           <h2 className="montserrat pl-0 text-center text-[36px] font-bold sm:text-start sm:text-[46px]">Our Services</h2>
         </div>
-        <div className="flex flex-wrap items-center justify-center">
+        <div className="flex flex-wrap items-center justify-center gap-10">
           <Link href={"/prices/air-duct"}>
             <div className="rem flex min-h-[320px] w-full flex-col rounded-2xl sm:flex-row xl:min-h-[500px] xl:w-[345px] xl:flex-col">
               <div className="">

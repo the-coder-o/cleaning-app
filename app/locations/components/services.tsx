@@ -24,12 +24,12 @@ const Services = () => {
             <div className="flex flex-1 flex-col items-center text-center justify-center space-y-4">
               <h4 className='text-[22px] xl:text-[26px] montserrat font-semibold text-center mt-2 w-full xl:w-[120px] leading-7'>Carpet Cleaning</h4>
 
-              <div className="block sm:hidden xl:block w-full h-[2px] border-lime-300 my-4 border-t-4"></div>
+              
 
               <p className=' text-[14px] montserrat text-center font-medium leading-5 px-1'>The prcess of removing foreign matter from carpeting will extend the useful life of your carpet. Due to modern cleaning methods such service can be performed as many times as needed.</p>
 
               <div className="flex items-center text-center justify-center mt-2 xl:mt-auto w-full">
-                <Button className='mt-auto mb-4 w-[320px] xl:w-[225px] flex items-center justify-center  text-center transition-all duration-200 montserrat text-[8px] text-lg  bg-lime-400 hover:bg-lime-500 outline-none focus:border-none text-white font-semibold rounded-xl py-2 px-[4px] md:py-3 md:px-2 xl:py-2 xl:px-3'>Price</Button>
+                <Button className='mt-auto mb-4 w-[320px] xl:w-[225px] flex items-center justify-center  text-center transition-all duration-200 montserrat text-[8px] text-lg  bg-cyan-400 hover:bg-cyan-500 outline-none focus:border-none text-white font-semibold rounded-xl py-2 px-[4px] md:py-3 md:px-2 xl:py-2 xl:px-3'>Price</Button>
               </div>
             </div>
 
@@ -45,14 +45,14 @@ const Services = () => {
             </div>
             <div className="flex flex-1 flex-col items-center text-center justify-center space-y-4">
               <h4 className='text-[22px] xl: montserrat font-semibold text-center mt-2 w-[147px] leading-7'>Upholstery Cleaning</h4>
-              <div className="block sm:hidden xl:block w-full h-[2px] border-lime-300 my-4 border-t-4"></div>
+              
 
               <p className='text-[14px] montserrat text-center font-medium leading-5 px-1'>There are many different fabrics and fibers used today. It is very important to apply the proper method of cl
 
                 eaning to the fabric to prevent its damage</p>
 
               <div className="flex items-center text-center justify-center mt-2 xl:mt-auto w-full">
-                <Button className='mt-auto mb-2 md:mb-0 w-[320px] xl:w-[225px] flex items-center justify-center  text-center transition-all duration-200 montserrat text-[8px] text-lg  bg-lime-400 hover:bg-lime-500 outline-none focus:border-none text-white font-semibold rounded-xl py-2 px-[4px] md:py-3 md:px-2 xl:py-2 xl:px-3'>Price</Button>
+                <Button className='mt-auto mb-2 md:mb-0 w-[320px] xl:w-[225px] flex items-center justify-center  text-center transition-all duration-200 montserrat text-[8px] text-lg  bg-cyan-400 hover:bg-cyan-500 outline-none focus:border-none text-white font-semibold rounded-xl py-2 px-[4px] md:py-3 md:px-2 xl:py-2 xl:px-3'>Price</Button>
               </div>
             </div>
           </div>
@@ -67,12 +67,12 @@ const Services = () => {
             <div className="flex flex-1 flex-col items-center text-center justify-center space-y-4">
               <h4 className='text-[22px] xl:text-[26px] montserrat font-semibold text-center mt-2 w-[147px] leading-7'>Air Duct & Dryer Vent</h4>
 
-              <div className="block sm:hidden xl:block w-full h-[2px] border-lime-300 my-4 border-t-4"></div>
+              
 
               <p className='text-[14px] montserrat text-center font-medium leading-5 px-1'>In order to get rid of smell (dust, mold, bacteria) and expend system life, air duct cleaning is recommended every 4-5 years for average homes.</p>
 
               <div className="flex items-center text-center justify-center mt-2 xl:mt-auto w-full">
-                <Button className='mt-auto mb-2 md:mb-0  w-[320px] xl:w-[225px] flex items-center justify-center  text-center transition-all duration-200 montserrat text-[8px] text-lg  bg-lime-400 hover:bg-lime-500 outline-none focus:border-none text-white font-semibold rounded-xl py-2 px-[4px] md:py-3 md:px-2 xl:py-2 xl:px-3'>Price</Button>
+                <Button className='mt-auto mb-2 md:mb-0  w-[320px] xl:w-[225px] flex items-center justify-center  text-center transition-all duration-200 montserrat text-[8px] text-lg  bg-cyan-400 hover:bg-cyan-500 outline-none focus:border-none text-white font-semibold rounded-xl py-2 px-[4px] md:py-3 md:px-2 xl:py-2 xl:px-3'>Price</Button>
               </div>
             </div>
           </div>

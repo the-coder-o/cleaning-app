@@ -31,19 +31,19 @@ const Header = () => {
       <Link href={'/'} className='flex items-center gap-1 md:gap-2'>
         <Image alt='logo' className='xl:w-[120px] xl:h-[105px] lg:w-[105px] lg:h-[90px] md:w-[90px] md:h-[75px] w-[35px] h-[30px]' width={120} height={105} src={logo} />
         <div className='w-[1px] h-[30px] lg:h-[95px] border-s-2 text-transparent mr-0 lg:mr-2'></div>
-        <span className='montserrat text-[8px] sm:text-xs md:text-base lg:text-lg xl:text-xl'>CLEANING <br /> SERVICES</span>
+        <span className='montserrat text-[8px] sm:text-xs md:text-base lg:text-lg xl:text-xl'>CLEANING <br />ZONE</span>
       </Link>
       <div className='flex flex-col  md:flex md:flex-row items-center gap[3px] md:gap-4'>
         <Image className='hidden lg:block lg:w-[70px] lg:h-[67.5px]' width={70} height={67.5} src={certificate1} alt='cer1' />
         <Image className='hidden lg:block  lg:w-[50px] lg:h-[48.5px] ' width={50} height={48.5} src={certificate2} alt='cer2' />
-      </div> 
+      </div>
+
       <div className='flex items-start gap-[2px] lg:gap-[0px] lg:items-center'>
         <Image src={'https://static.tildacdn.one/tild3934-6630-4266-a261-366566323863/TelephoneFill.svg'} width={50} height={49} className='xl:w-[50px] xl:h-[49px] lg:w-[37px] lg:h-[37px] md:w-[29px] md:h-[29px] sm:w-[20px] sm:h-[20px] w-[15px] h-[15px]' alt='tel' />
-
         <div className=' flex items-center flex-col'>
           <a href='tel:(877) 340 - 1327' className='font-semibold montserrat leading-[9px]  text-[10px] sm:text-sm md:text-base lg:text-lg xl:text-xl'>(877) 340 - 1327</a>
           <Dialog>
-            <DialogTrigger className='montserrat text-[8px] lg:text-[12px] xl:text-base mt-[5px] bg-red-500 hover:bg-red-600 outline-none focus:border-none text-white font-semibold rounded-xl py-[2px] px-[4px] md:py-1 md:px-2 xl:py-1 xl:px-3'>Contact me</DialogTrigger>
+            <DialogTrigger className='montserrat text-[8px] lg:text-[12px] xl:text-base mt-[5px] bg-cyan-400 hover:bg-cyan-500 outline-none focus:border-none text-white font-semibold rounded-xl py-[2px] px-[4px] md:py-1 md:px-2 xl:py-1 xl:px-3'>Contact me</DialogTrigger>
             <Modal />
           </Dialog>
         </div>

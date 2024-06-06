@@ -9,7 +9,7 @@ const BeforeAfter = () => {
   return (
     <div className='pl-[10px] sm:pl-[20px] lg:pl-[40px]'>
         <div className="">
-        <h2 className='font-bold montserrat text-[18px]  sm:text-[24px] md:text-[36px] lg:text-[40px] xl:text-[46px] '>A dirty carpet affects your <span className='text-lime-400'>health</span></h2>
+        <h2 className='font-bold montserrat text-[18px]  sm:text-[24px] md:text-[36px] lg:text-[40px] xl:text-[46px] '>A dirty carpet affects your <span className='text-cyan-400'>health</span></h2>
         <h4 className='flex flex-wrap w-full max-w-[1050px] montserrat font-semibold text-[14px] sm:text-[18px] md:text-[22px] xl:text-[24px] '>You must give your carpet a thorough clean to remove allergens and clear the air. Aim to vacuum once a week and hire a professional carpet cleaner every two-six months</h4>
         </div>
         <div className="flex justify-center items-center  gap-12 my-5">

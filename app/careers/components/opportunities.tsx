@@ -15,11 +15,11 @@ const Opportunities = () => {
                 <div className="asap">
                     <h5 className='font-semibold text-[14px] sm:text-[18px] md:text-[22px] xl:text-[26px]'>Carpet and Air Duct Cleaning Technician</h5>
                     <ul className='w-full max-w-[500px] text-[12px] sm:text-[14px] md:text-[16px] xl:text-[18px]'>
-                        <li className='list-disc'>Full time, day shift.30 + hours per week</li>
-                        <li className='list-disc'>Reliable Transportation Required</li>
-                        <li className='list-disc'>Background Check Required</li>
-                        <li className='list-disc'>Job includes providing residential and commercial Air Duct and Carpet Cleaning.</li>
-                        <li className='list-disc'>Training provided</li>
+                        <li className=''>Full time, day shift.30 + hours per week</li>
+                        <li className=''>Reliable Transportation Required</li>
+                        <li className=''>Background Check Required</li>
+                        <li className=''>Job includes providing residential and commercial Air Duct and Carpet Cleaning.</li>
+                        <li className=''>Training provided</li>
                     </ul>
                 </div>
             </div>
@@ -29,13 +29,13 @@ const Opportunities = () => {
                         <h5 className='font-semibold text-[14px] sm:text-[18px] md:text-[22px] xl:text-[26px]'>
                             Janitorial Technician</h5>
                         <ul className='w-full max-w-[500px] text-[12px] sm:text-[14px] md:text-[16px] xl:text-[18px]'>
-                            <li className='list-disc'>Part time, morning or evening shift</li>
-                            <li className='list-disc'>20+ hours per week</li>
-                            <li className='list-disc'>Reliable Transportation Required</li>
-                            <li className='list-disc'>Background Check Required</li>
-                            <li className='list-disc'>Job entails general cleaning (Dusting,
+                            <li className=''>Part time, morning or evening shift</li>
+                            <li className=''>20+ hours per week</li>
+                            <li className=''>Reliable Transportation Required</li>
+                            <li className=''>Background Check Required</li>
+                            <li className=''>Job entails general cleaning (Dusting,
                                 Mopping, Vacuuming, Dumping Trash, etc.)</li>
-                            <li className='list-disc'>Training provided</li>
+                            <li className=''>Training provided</li>
 
                         </ul>
                     </div>
@@ -54,14 +54,14 @@ const Opportunities = () => {
                         <h5 className='font-semibold text-[14px] sm:text-[18px] md:text-[22px] xl:text-[26px]'>
                             Marketing & Sales Representative</h5>
                         <ul className='w-full max-w-[560px] text-[12px] sm:text-[14px] md:text-[16px] xl:text-[18px]'>
-                            <li className='list-disc'>Part time, full time, day shift</li>
-                            <li className='list-disc'>30 + hours per week</li>
-                            <li className='list-disc'>Reliable Transportation Required</li>
-                            <li className='list-disc'>Background Check Required</li>
-                            <li className='list-disc'>Job includes active involvement with the communities, establishing relationships with local businesses, government leaders, restaurant owners, as well as travel industry and hospitality representatives.</li>
-                            <li className='list-disc'>College degree in Marketing or equivalent related experience in the publishing industry and media.</li>
-                            <li className='list-disc'>Experience in sales, preferably in advertising.</li>
-                            <li className='list-disc'>Outstanding networking capabilities and the ability to close sales. Required</li>
+                            <li className=''>Part time, full time, day shift</li>
+                            <li className=''>30 + hours per week</li>
+                            <li className=''>Reliable Transportation Required</li>
+                            <li className=''>Background Check Required</li>
+                            <li className=''>Job includes active involvement with the communities, establishing relationships with local businesses, government leaders, restaurant owners, as well as travel industry and hospitality representatives.</li>
+                            <li className=''>College degree in Marketing or equivalent related experience in the publishing industry and media.</li>
+                            <li className=''>Experience in sales, preferably in advertising.</li>
+                            <li className=''>Outstanding networking capabilities and the ability to close sales. Required</li>
                         </ul>
                     </div>
                 </div>

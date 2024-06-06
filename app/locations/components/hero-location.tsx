@@ -15,10 +15,10 @@ const HeroLocation = () => {
  
         <div className="flex flex-col justify-center sm:items-start items-center text-center sm:text-start">
         <Dialog>
-            <DialogTrigger className=' transition-all duration-200 montserrat text-[10px] md:text-[12px] xl:text-base mt-[5px] bg-lime-400 hover:bg-lime-500 outline-none focus:border-none text-white font-semibold rounded-xl  py-3 px-8 md:py-3 md:px-7 xl:py-4 xl:px-12'>BOOK NOW</DialogTrigger>
+            <DialogTrigger className=' transition-all duration-200 montserrat text-[10px] md:text-[12px] xl:text-base mt-[5px] bg-cyan-400 hover:bg-cyan-500 outline-none focus:border-none text-white font-semibold rounded-xl  py-3 px-8 md:py-3 md:px-7 xl:py-4 xl:px-12'>BOOK NOW</DialogTrigger>
             <Modal/>
           </Dialog>
-          <p className='text-white sm:text-black w-[230px] montserrat text-[12px] md:text-[16px] mt-[10px] xl:mt-[20px]'>Leave a request on the site and get a 20 % discount on the first cleaning</p>
+          {/* <p className='text-white sm:text-black w-[230px] montserrat text-[12px] md:text-[16px] mt-[10px] xl:mt-[20px]'>Leave a request on the site and get a 20 % discount on the first cleaning</p> */}
         </div>
       </div>
 

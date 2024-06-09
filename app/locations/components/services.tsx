@@ -12,9 +12,9 @@ const Services = () => {
       <div className="">
         <h2 className=" montserrat pl-0 text-center text-[36px] font-bold sm:text-start sm:text-[46px] md:pl-12">Our Services</h2>
       </div>
-      <div className="mt-12 flex flex-wrap items-center justify-around gap-4 text-center ">
+      <div className="mt-12 flex px-2 flex-wrap items-center justify-around gap-4 text-center ">
         <Link href={"/prices/carpet-cleaning"}>
-          <div className="relative flex flex-col mt-6 text-gray-700 bg-white rem  shadow-gray-600 bg-clip-border rounded-xl w-96">
+          <div className="relative flex flex-col mt-6 text-gray-700 bg-white rem  shadow-gray-600 bg-clip-border rounded-xl w-full max-w-96">
             <div
               className="relative mx-4 -mt-6 overflow-hidden shadow-lg bg-clip-border rounded-xl  shadow-blue-gray-500/40">
               <Image
@@ -35,7 +35,7 @@ const Services = () => {
           </div>
         </Link>
         <Link href={"/prices/upholstery-cleaning"}>
-          <div className="relative flex flex-col mt-6 text-gray-700 bg-white rem  shadow-gray-600 bg-clip-border rounded-xl w-96">
+          <div className="relative flex flex-col mt-6 text-gray-700 bg-white rem  shadow-gray-600 bg-clip-border rounded-xl w-full max-w-96">
             <div
               className="relative mx-4 -mt-6 overflow-hidden text-white shadow-2xl bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <Image
@@ -55,7 +55,7 @@ const Services = () => {
           </div>
         </Link>
         <Link href={"/prices/air-duct"}>
-          <div className="relative flex flex-col mt-6 text-gray-700 bg-white rem  shadow-gray-600 bg-clip-border rounded-xl w-96">
+          <div className="relative flex flex-col mt-6 text-gray-700 bg-white rem  shadow-gray-600 bg-clip-border rounded-xl w-full max-w-96">
             <div
               className="relative  mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <Image

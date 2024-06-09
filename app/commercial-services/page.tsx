@@ -30,8 +30,8 @@ const Page = () => {
         <div className="">
           <h2 className="montserrat pl-0 text-center text-[36px] font-bold sm:text-start sm:text-[46px]">Our Services</h2>
         </div>
-        <div className="grid w-full max-w-96 place-items-center px-3 grid-cols-1  md:grid-cols-2 xl:grid-cols-3 items-center justify-center gap-10">
-          <div className="relative flex flex-col mt-6 text-gray-700 bg-white rem  shadow-gray-600 bg-clip-border rounded-xl w-96">
+        <div className="grid  place-items-center px-3 grid-cols-1  md:grid-cols-2 xl:grid-cols-3 items-center justify-center gap-10">
+          <div className="relative flex flex-col mt-6 text-gray-700 bg-white rem  shadow-gray-600 bg-clip-border rounded-xl w-full max-w-96">
             <div
               className="relative  mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <img src={"https://optim.tildacdn.one/tild6337-6331-4863-b331-646431653232/-/cover/690x402/left/top/-/format/webp/photo507781168128286.png"} alt="card-img" className="h-full  w-full lg:object-cover xl:w-[345px]" />
@@ -50,7 +50,7 @@ const Page = () => {
               </div>
             </div>
           </div>
-          <div className="relative flex flex-col mt-6 text-gray-700 bg-white rem  shadow-gray-600 bg-clip-border rounded-xl w-96">
+          <div className="relative flex flex-col mt-6 text-gray-700 bg-white rem  shadow-gray-600 bg-clip-border rounded-xl w-full max-w-96">
             <div
               className="relative  mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <img src={"https://optim.tildacdn.one/tild6234-3730-4036-b762-353930653538/-/cover/690x402/center/top/-/format/webp/photo507781168128286.png"} alt="card-img" className="h-full  w-full lg:object-cover xl:w-[345px]" />
@@ -70,7 +70,7 @@ const Page = () => {
               </div>
             </div>
           </div>
-          <div className="relative flex flex-col mt-6 text-gray-700 bg-white rem  shadow-gray-600 bg-clip-border rounded-xl w-96">
+          <div className="relative flex flex-col mt-6 text-gray-700 bg-white rem  shadow-gray-600 bg-clip-border rounded-xl w-full max-w-96">
             <div
               className="relative  mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <img src={"https://optim.tildacdn.one/tild6239-6330-4639-b734-313362336164/-/cover/690x402/center/top/-/format/webp/photo507781168128286.png"} alt="card-img" className="h-full  w-full lg:object-cover xl:w-[345px]" />
@@ -90,7 +90,7 @@ const Page = () => {
               </div>
             </div>
           </div>
-          <div className="relative flex flex-col mt-6 text-gray-700 bg-white rem  shadow-gray-600 bg-clip-border rounded-xl w-96">
+          <div className="relative flex flex-col mt-6 text-gray-700 bg-white rem  shadow-gray-600 bg-clip-border rounded-xl w-full max-w-96">
             <div
               className="relative  mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <img src={"https://optim.tildacdn.one/tild3764-3136-4666-a635-306463353039/-/cover/690x402/center/top/-/format/webp/photo507781168128286.png"} alt="card-img" className="h-full  w-full lg:object-cover xl:w-[345px]" />
@@ -110,7 +110,7 @@ const Page = () => {
               </div>
             </div>
           </div>
-          <div className="relative flex flex-col mt-6 text-gray-700 bg-white rem  shadow-gray-600 bg-clip-border rounded-xl w-96">
+          <div className="relative flex flex-col mt-6 text-gray-700 bg-white rem  shadow-gray-600 bg-clip-border rounded-xl w-full max-w-96">
             <div
               className="relative  mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <img src={"https://static.tildacdn.com/tild6135-3736-4633-a335-663566326266/photo507781168128286.png"} alt="card-img" className="h-full  w-full lg:object-cover xl:w-[345px]" />
@@ -130,7 +130,7 @@ const Page = () => {
               </div>
             </div>
           </div>
-          <div className="relative flex flex-col mt-6 text-gray-700 bg-white rem  shadow-gray-600 bg-clip-border rounded-xl w-96">
+          <div className="relative flex flex-col mt-6 text-gray-700 bg-white rem  shadow-gray-600 bg-clip-border rounded-xl w-full max-w-96">
             <div
               className="relative  mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <img src={"https://optim.tildacdn.one/tild6562-6639-4333-b236-316465626131/-/cover/690x402/center/top/-/format/webp/photo507781168128286.png"} alt="card-img" className="h-full  w-full lg:object-cover xl:w-[345px]" />
@@ -150,7 +150,7 @@ const Page = () => {
               </div>
             </div>
           </div>
-          <div className="relative flex flex-col mt-6 text-gray-700 bg-white rem  shadow-gray-600 bg-clip-border rounded-xl w-96">
+          <div className="relative flex flex-col mt-6 text-gray-700 bg-white rem  shadow-gray-600 bg-clip-border rounded-xl w-full max-w-96">
             <div
               className="relative  mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <img
@@ -172,7 +172,7 @@ const Page = () => {
               </div>
             </div>
           </div>
-          <div className="relative flex flex-col mt-6 text-gray-700 bg-white rem  shadow-gray-600 bg-clip-border rounded-xl w-96">
+          <div className="relative flex flex-col mt-6 text-gray-700 bg-white rem  shadow-gray-600 bg-clip-border rounded-xl w-full max-w-96">
             <div
               className="relative  mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <img

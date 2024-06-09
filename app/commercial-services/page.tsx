@@ -30,7 +30,7 @@ const Page = () => {
         <div className="">
           <h2 className="montserrat pl-0 text-center text-[36px] font-bold sm:text-start sm:text-[46px]">Our Services</h2>
         </div>
-        <div className="grid place-items-center px-3 grid-cols-1  md:grid-cols-2 xl:grid-cols-3 items-center justify-center gap-10">
+        <div className="grid w-full max-w-96 place-items-center px-3 grid-cols-1  md:grid-cols-2 xl:grid-cols-3 items-center justify-center gap-10">
           <div className="relative flex flex-col mt-6 text-gray-700 bg-white rem  shadow-gray-600 bg-clip-border rounded-xl w-96">
             <div
               className="relative  mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">

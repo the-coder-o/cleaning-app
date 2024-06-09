@@ -9,9 +9,9 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "montserrat rounded-2xl text-[14px] md:text-[20px] bg-lime-400 text-white hover:bg-lime-500 ",
+        default: "align-middle rounded-full select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs md:text-sm py-3 px-8 bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none",
         destructive:
-          "bg-destructive text-destructive-foreground hover:bg-destructive/90",
+          "block w-full px-4 py-2 font-semibold text-center text-white bg-indigo-500 rounded hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none",
         outline:
           "border border-input bg-background hover:bg-accent hover:text-accent-foreground",
         secondary:

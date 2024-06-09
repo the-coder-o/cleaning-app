@@ -1,25 +1,42 @@
-import Image from 'next/image'
 import React from 'react'
-import types1 from '@/images/png/Screenshot 2024-05-31 010842.png'
-import stains1 from '@/images/png/Screenshot 2024-05-31 011219.png'
-import types2 from '@/images/png/Screenshot 2024-05-31 010927.png'
-import stains2 from '@/images/png/Screenshot 2024-05-31 011247.png'
-import types3 from '@/images/png/Screenshot 2024-05-31 011056.png';
-import stains3 from '@/images/png/Screenshot 2024-05-31 011316.png'
+import { Card, CardHeader } from '@/components/ui/card'
+import { Dialog, DialogTrigger } from '@/components/ui/dialog'
+import Modal from '@/components/Modal'
 
 
 
 const Specialization = () => {
     return (
         <div className="mt-12 md:mt-24">
-            <h2 className='pl-3 font-bold montserrat text-[18px] sm:text-[24px] md:text-[36px] lg:text-[40px] xl:text-[46px]'>WE SPECIALIZE IN <span className='text-lime-400'>REMOVING</span> DIFFERENT TYPE OF STAINS</h2>
-            <div className='flex items-center gap-4 lg:gap-8 xl:items-start flex-col xl:flex-row justify-evenly'>
-                <Image src={types1} alt='type1' className='hidden lg:block'/>
-                <Image src={stains1} alt='stains1' className='hidden lg:block' />
-                <Image src={types2} alt='type2' className='hidden sm:block lg:hidden'/>
-                <Image src={stains2} alt='stains2' className='hidden sm:block lg:hidden'/>
-                <Image src={types3} alt='types3' className='block sm:hidden'/>
-                <Image src={stains3} alt="stains3" className='block sm:hidden'/>
+            <h2 className='pl-3 font-bold montserrat text-[18px] sm:text-[24px] md:text-[36px] lg:text-[40px] xl:text-[46px]'>We offer :</h2>
+            <div className="flex gap-3 px-2 flex-wrap justify-between mt-5">
+                <Card className='px-6 py-3 w-full'>
+                    <CardHeader className='text-black shadow-none'>
+                        Pet odor & stains removal
+                    </CardHeader>
+                    <Dialog>
+                        <DialogTrigger className='flex text-[10px] sm:text-[12px] md:text-[16px] items-start rounded-full  px-4 py-2 font-semibold text-center text-white bg-gradient-to-r from-indigo-500 to-purple-600 focus:bg-indigo-700 focus:outline-none '>BOOK NOW</DialogTrigger>
+                        <Modal />
+                    </Dialog>
+                </Card>
+                <Card className='px-6 py-3 w-full'>
+                    <CardHeader className='text-black shadow-none '>
+                        Carpet protection
+                    </CardHeader>
+                    <Dialog>
+                        <DialogTrigger className='mt-8 flex text-[10px] sm:text-[12px] md:text-[16px] items-start rounded-full  px-4 py-2 font-semibold text-center text-white bg-gradient-to-r from-indigo-500 to-purple-600 focus:bg-indigo-700 focus:outline-none '>BOOK NOW</DialogTrigger>
+                        <Modal />
+                    </Dialog>
+                </Card>
+                <Card className='px-6 py-3 w-full'>
+                    <CardHeader className='text-black shadow-none'>
+                        Sanitizer
+                    </CardHeader>
+                    <Dialog>
+                        <DialogTrigger className='mt-8 flex text-[10px] sm:text-[12px] md:text-[16px] items-start rounded-full  px-4 py-2 font-semibold text-center text-white bg-gradient-to-r from-indigo-500 to-purple-600 focus:bg-indigo-700 focus:outline-none '>BOOK NOW</DialogTrigger>
+                        <Modal />
+                    </Dialog>
+                </Card>
             </div>
         </div>
     )

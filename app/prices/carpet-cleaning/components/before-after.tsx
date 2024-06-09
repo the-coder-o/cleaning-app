@@ -7,19 +7,19 @@ import after from '@/images/jpg/after-carpet.jpg';
 
 const BeforeAfter = () => {
   return (
-    <div className='pl-[10px] sm:pl-[20px] lg:pl-[40px]'>
-        <div className="">
-        <h2 className='font-bold montserrat text-[18px]  sm:text-[24px] md:text-[36px] lg:text-[40px] xl:text-[46px] '>A dirty carpet affects your <span className='text-cyan-400'>health</span></h2>
+    <div className='pl-[0px] sm:pl-[20px] lg:pl-[40px]'>
+        <div className="px-4">
+        <h2 className='font-bold montserrat text-[18px]  sm:text-[24px] md:text-[36px] lg:text-[40px] xl:text-[46px] '>A dirty carpet affects your <span className='text-blue-500'>health</span></h2>
         <h4 className='flex flex-wrap w-full max-w-[1050px] montserrat font-semibold text-[14px] sm:text-[18px] md:text-[22px] xl:text-[24px] '>You must give your carpet a thorough clean to remove allergens and clear the air. Aim to vacuum once a week and hire a professional carpet cleaner every two-six months</h4>
         </div>
         <div className="flex justify-center items-center  gap-12 my-5">
-        <Button variant={'secondary'} size={'lg'}>Before</Button>
-        <Button variant={'secondary'}>After</Button>
+        <Button className='block rounded-full px-4 py-2 font-semibold text-center text-white bg-gradient-to-r from-black/65  via-gray-600 to-black/65 focus:bg-indigo-700 focus:outline-none'>Before</Button>
+        <Button className='block rounded-full px-4 py-2 font-semibold text-center text-white bg-gradient-to-r from-black/65  via-gray-600 to-black/65 focus:bg-indigo-700 focus:outline-none'>After</Button>
         </div>
-        <div className="flex items-center  justify-center">
+        <div className="flex items-center px-2 justify-center">
           <ResizablePanelGroup
             direction="horizontal"
-            className="min-h-[400px] max-w-2xl rounded-lg border"
+            className="h-[400px] max-w-2xl rounded-lg border"
           >
             <ResizablePanel defaultSize={50}>
               <div className="flex  items-center justify-center ">

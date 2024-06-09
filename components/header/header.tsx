@@ -4,9 +4,11 @@ import React, { useEffect, useState } from 'react';
 import logo from '../../images/jpg/master-cleaning.jpg';
 import certificate1 from '../../images/png/warantee.png';
 import certificate2 from "../../images/png/family-owned.png";
-import { Dialog, DialogTrigger } from '../ui/dialog';
-import Modal from '../Modal';
 import Link from 'next/link';
+import Modal from '../Modal';
+import { Dialog } from '../ui/dialog';
+import { DialogTrigger } from '@radix-ui/react-dialog';
+
 
 
 
@@ -39,17 +41,18 @@ const Header = () => {
       </div>
 
       <div className='flex items-start gap-[2px] lg:gap-[0px] lg:items-center'>
-        <Image src={'https://static.tildacdn.one/tild3934-6630-4266-a261-366566323863/TelephoneFill.svg'} width={50} height={49} className='xl:w-[50px] xl:h-[49px] lg:w-[37px] lg:h-[37px] md:w-[29px] md:h-[29px] sm:w-[20px] sm:h-[20px] w-[15px] h-[15px]' alt='tel' />
+       
         <div className=' flex items-center flex-col'>
           <a href='tel:(877) 340 - 1327' className='font-semibold montserrat leading-[9px]  text-[10px] sm:text-sm md:text-base lg:text-lg xl:text-xl'>(877) 340 - 1327</a>
+
           <Dialog>
-            <DialogTrigger className='montserrat text-[8px] lg:text-[12px] xl:text-base mt-[5px] bg-cyan-400 hover:bg-cyan-500 outline-none focus:border-none text-white font-semibold rounded-xl py-[2px] px-[4px] md:py-1 md:px-2 xl:py-1 xl:px-3'>Contact me</DialogTrigger>
-            <Modal />
-          </Dialog>
+              <DialogTrigger className='mt-1 md:mt-3 flex text-[6px] sm:text-[10px] items-start rounded-full  px-4 py-1 md:py-2 md:px-5 font-semibold text-center text-white bg-gradient-to-r from-indigo-500 to-purple-600 focus:bg-indigo-700 focus:outline-none'>BOOK NOW</DialogTrigger>
+              <Modal />
+            </Dialog>
+
         </div>
       </div>
       <div className='flex items-start lg:items-center gap-[2px] lg:gap-4'>
-        <Image width={48} className='xl:w-[50px] xl:h-[49px] lg:w-[37px] lg:h-[37px] md:w-[29px] md:h-[29px] sm:w-[20px] sm:h-[20px] w-[15px] h-[15px]' height={48} src='https://static.tildacdn.one/tild6637-6437-4532-b734-653830353039/clock_1.svg' alt='time' />
         <div className='flex items-center flex-col'>
           <p className='font-semibold montserrat leading-[9px]  text-[10px] sm:text-sm md:text-base lg:text-lg xl:text-xl'>Open 7 days a week</p>
           <p className='montserrat text-[10px] md:text-sm lg:text-base xl:text-lg font-medium'>8 AM - 8PM</p>

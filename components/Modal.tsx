@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { DialogContent, DialogDescription, DialogHeader, DialogTitle } from './ui/dialog';
+import { DialogClose, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from './ui/dialog';
 import { Label } from './ui/label';
 import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
@@ -26,7 +26,6 @@ const Modal = () => {
     api.open('GET', url, true);
     api.send();
   };
-
   return (
     <div className=''>
       <DialogContent className='bg-white '>
@@ -43,7 +42,6 @@ const Modal = () => {
                 value={name}
                 onChange={(e) => setName(e.target.value)}
               />
-
               <div className='my-4'>
                 <Label className='mt-4'>What type of Cleaning Services Do You Need?</Label>
                 <Textarea
@@ -54,7 +52,6 @@ const Modal = () => {
                   onChange={(e) => setDescriptionText(e.target.value)}
                 />
               </div>
-
               <Label className='mt-4'>Your phone number</Label>
               <div className='border-2 mb-4 border-gray-300 rounded-[5px] outline-none mt-2'>
                 <PhoneInput
@@ -65,7 +62,6 @@ const Modal = () => {
                   placeholder='+1(999) 999-999-9999'
                 />
               </div>
-
               <Label className='mt-4'>Your email (optional)</Label>
               <Input
                 id='email'
@@ -75,7 +71,6 @@ const Modal = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
-
               <div className='flex flex-col'>
                 <Label className='mt-4'>How do you prefer to be contacted?</Label>
                 <select className='w-full py-2 border-2 border-gray-300 rounded-[5px] outline-none mt-2'>
@@ -84,13 +79,11 @@ const Modal = () => {
                   <option>Message</option>
                 </select>
               </div>
-              <div className="flex items-center justify-center text-center">
-                <Button
-                  type='submit'
-                  className='montserrat w-[310px] xl:w-[225px] mt-8 transition-all duration-200 montserrat text-base md:text-lg  bg-lime-400 hover:bg-lime-500 outline-none focus:border-none text-white font-semibold rounded-xl py-2 px-[4px] md:py-3 md:px-2 xl:py-2 xl:px-3'>
-                  Submit
-                </Button>
-              </div>
+          <DialogClose asChild>
+            <Button className='block mt-4 rounded-full w-full px-4 py-2 font-semibold text-center text-white bg-gradient-to-r from-indigo-500 to-purple-600 focus:bg-indigo-700 focus:outline-none' type="submit" onSubmit={handleSubmit} >
+              submit
+            </Button>
+          </DialogClose>
             </form>
           </DialogDescription>
         </DialogHeader>

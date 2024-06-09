@@ -33,7 +33,7 @@ const Faq = () => {
       <AccordionItem value="item-4">
         <AccordionTrigger>ARE YOUR CHEMICALS SAFE FOR MY PETS AND MY FAMILY?</AccordionTrigger>
         <AccordionContent>
-        Yes it's safe. We use nontoxic bridgepoint chemical solutions, that are formulated to help you meet and exceed cleaning and restoration standards and guidelines set forth by the Institute of Inspection, Cleaning, and Restoration Certification Standards (IICRC)
+        Yes it&apos;s safe. We use nontoxic bridgepoint chemical solutions, that are formulated to help you meet and exceed cleaning and restoration standards and guidelines set forth by the Institute of Inspection, Cleaning, and Restoration Certification Standards (IICRC)
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-5">
@@ -45,13 +45,13 @@ const Faq = () => {
       <AccordionItem value="item-6">
         <AccordionTrigger>DO YOU MOVE FURNITURE?</AccordionTrigger>
         <AccordionContent>
-        Yes we do move lightweight furniture sofa, chairs, coffee tables etc. We don't move beds, dressers, electronics, cabinets etc.
+        Yes we do move lightweight furniture sofa, chairs, coffee tables etc. We don&apos;t move beds, dressers, electronics, cabinets etc.
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-7">
         <AccordionTrigger>DO YOU GUARANTEE REMOVAL ALL STAINS ?</AccordionTrigger>
         <AccordionContent>
-        Yes we do move lightweight furniture sofa, chairs, coffee tables etc. We don't move beds, dressers, electronics, cabinets etc.
+        Yes we do move lightweight furniture sofa, chairs, coffee tables etc. We don&apos;t move beds, dressers, electronics, cabinets etc.
         </AccordionContent>
       </AccordionItem>
     </Accordion>

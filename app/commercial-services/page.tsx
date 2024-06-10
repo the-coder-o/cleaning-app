@@ -11,13 +11,13 @@ import bg_sm from "@/images/jpg/bg-sm.jpg";
 
 const Page = () => {
   return (
-    <div className="relative bottom-2">
+    <div className="relative bottom-2 px-4">
       <div className="absolute top-40 z-10 flex flex-col items-center justify-center pl-[10px] text-center  sm:top-36 sm:items-start sm:justify-between sm:text-start md:pl-[30px] xl:top-40 xl:pl-[40px]">
         <h1 className="montserrat flex w-full max-w-[680px] flex-wrap text-[18px] font-bold text-white drop-shadow-2xl sm:text-[24px] sm:text-black md:text-[36px] lg:text-[40px] xl:text-[46px]">Commercial Cleaning/Janitorial And Disinfecting Services</h1>
         <div className="flex flex-col items-center justify-center text-center sm:items-start sm:text-start">
-        <Dialog>
+          <Dialog>
             <DialogTrigger className=' text-[10px] sm:text-[12px] md:text-[16px] rounded-full  px-4 py-2 md:px-12 font-semibold text-center text-white bg-gradient-to-r from-indigo-500 to-purple-600 focus:bg-indigo-700 focus:outline-none mt-auto'>BOOK NOW</DialogTrigger>
-            <Modal/>
+            <Modal />
           </Dialog>
           <p className="montserrat mt-[10px] w-[230px] text-[12px] text-white sm:text-black md:text-[16px] xl:mt-[20px]">Leave a request on the site and get a 20 % discount on the first cleaning</p>
         </div>

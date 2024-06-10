@@ -9,8 +9,8 @@ const UpholsteryCleaning = () => {
     <div>
       <HeroUpholstery />
       <div className="container">
-      <Specialization/>
       <Pricing/> 
+      <Specialization/>
       </div>
           </div>
   )

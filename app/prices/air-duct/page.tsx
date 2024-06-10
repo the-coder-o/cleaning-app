@@ -3,6 +3,7 @@ import React from 'react'
 import HeroAirDuct from './components/hero-air-duct'
 import BeforeAfterAir from './components/before-after'
 import Pricing from './components/pricing'
+import Reasons from './components/4reasons'
 
 const AirDuct = () => {
   return (
@@ -11,6 +12,7 @@ const AirDuct = () => {
       <div className="container">
         <BeforeAfterAir />
         <Pricing />
+        <Reasons />
       </div>
     </div>
   )

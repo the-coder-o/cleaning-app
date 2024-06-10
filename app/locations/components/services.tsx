@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 
 const Services = () => {
   return (
-    <div className="px-3">
+    <div className="px-3" id="services">
       <div className="">
         <h2 className=" montserrat pl-0 text-center text-[36px] font-bold sm:text-start sm:text-[46px] md:pl-12">Our Services</h2>
       </div>

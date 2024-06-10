@@ -11,9 +11,9 @@ const CarpetCleaning = () => {
     <div className=''>
       <Hero/>
       <div className="container">
-        <BeforeAfter />
-        <Specialization />
+        {/* <BeforeAfter /> */}
         <Pricing/>
+        <Specialization />
       </div>
     </div>
   )

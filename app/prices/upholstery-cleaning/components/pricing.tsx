@@ -14,8 +14,8 @@ import Modal from '@/components/Modal'
 const Pricing = () => {
     return (
         <div className='px-6 md:px-12 mt-12 md:mt-24'>
-            <h2 className='montserrat font-bold text-[18px]  sm:text-[24px] md:text-[36px] lg:text-[40px] xl:text-[46px]'>WE ONLY USE POWERFUL TRUCKMOUNTED SYSTEM</h2>
-            <h4 className='text-[14px] sm:text-[18px] md:text-[22px] xl:text-[27px] montserrat my-4 font-medium'>3 STEPS CARPET CLEANING <span className='text-red-600'>100 %</span> SATISFACTION GUARANTEED</h4>
+            <h2 className='montserrat font-bold text-[18px]  sm:text-[24px] md:text-[36px] lg:text-[40px] xl:text-[46px]'>WE USE POWERFUL TRUCKMOUNTED SYSTEM</h2>
+            <h4 className='text-[14px] sm:text-[18px] md:text-[22px] xl:text-[27px] montserrat my-4 font-medium'>3 STEPS CARPET CLEANING <br /> <span className='text-red-600'>100 % SATISFACTION GUARANTEED </span></h4>
 
             <div className="mb-6">
                 <Breadcrumb>
@@ -50,7 +50,7 @@ const Pricing = () => {
 
 
                         <Dialog>
-                            <DialogTrigger className='block rounded-full w-full px-4 py-2 font-semibold text-center text-white bg-gradient-to-r from-indigo-500 to-purple-600 focus:bg-indigo-700 focus:outline-none'>Explore more</DialogTrigger>
+                            <DialogTrigger className='block rounded-full w-full px-4 py-2 font-semibold text-center text-white bg-gradient-to-r from-indigo-500 to-purple-600 focus:bg-indigo-700 focus:outline-none'>BOOK NOW</DialogTrigger>
                             <Modal />
                         </Dialog>
 
@@ -70,7 +70,7 @@ const Pricing = () => {
 
 
                         <Dialog>
-                            <DialogTrigger className='block rounded-full w-full px-4 py-2 font-semibold text-center text-white bg-gradient-to-r from-indigo-500 to-purple-600 focus:bg-indigo-700 focus:outline-none'>Explore more</DialogTrigger>
+                            <DialogTrigger className='block rounded-full w-full px-4 py-2 font-semibold text-center text-white bg-gradient-to-r from-indigo-500 to-purple-600 focus:bg-indigo-700 focus:outline-none'>BOOK NOW</DialogTrigger>
                             <Modal />
                         </Dialog>
 
@@ -90,7 +90,7 @@ const Pricing = () => {
 
 
                         <Dialog>
-                            <DialogTrigger className='block rounded-full w-full px-4 py-2 font-semibold text-center text-white bg-gradient-to-r from-indigo-500 to-purple-600 focus:bg-indigo-700 focus:outline-none'>Explore more</DialogTrigger>
+                            <DialogTrigger className='block rounded-full w-full px-4 py-2 font-semibold text-center text-white bg-gradient-to-r from-indigo-500 to-purple-600 focus:bg-indigo-700 focus:outline-none'>BOOK NOW</DialogTrigger>
                             <Modal />
                         </Dialog>
 
@@ -110,7 +110,7 @@ const Pricing = () => {
 
 
                         <Dialog>
-                            <DialogTrigger className='block rounded-full w-full px-4 py-2 font-semibold text-center text-white bg-gradient-to-r from-indigo-500 to-purple-600 focus:bg-indigo-700 focus:outline-none'>Explore more</DialogTrigger>
+                            <DialogTrigger className='block rounded-full w-full px-4 py-2 font-semibold text-center text-white bg-gradient-to-r from-indigo-500 to-purple-600 focus:bg-indigo-700 focus:outline-none'>BOOK NOW</DialogTrigger>
                             <Modal />
                         </Dialog>
 
@@ -141,16 +141,13 @@ const Pricing = () => {
                     </div>
                     <div className="px-6 pt-4 pb-6">
                         <Dialog>
-                            <DialogTrigger className='block rounded-full w-full px-4 py-2 font-semibold text-center text-white bg-gradient-to-r from-indigo-500 to-purple-600 focus:bg-indigo-700 focus:outline-none'>Explore more</DialogTrigger>
+                            <DialogTrigger className='block rounded-full w-full px-4 py-2 font-semibold text-center text-white bg-gradient-to-r from-indigo-500 to-purple-600 focus:bg-indigo-700 focus:outline-none'>BOOK NOW</DialogTrigger>
                             <Modal />
                         </Dialog>
                     </div>
                 </Card>
             </div>
-            <div className="mt-4">
-                <h4 className='text-[14px] w-full max-w-[870px] montserrat md:text-[23px] font-medium text-blue-600'>One of the top benefits of professional upholstery cleaning is that your upholstery cleaning services will help to extend the lifespan of your furniture. When your couch or stuffed chair becomes covered in dirt and stains, chances are that you will want to replace it. However, with the amazing cleaning power that is offered by your cleaning technicians, you can restore your furniture to like new condition
-                </h4>
-            </div>
+            
         </div>
     )
 }

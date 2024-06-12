@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../../images/jpg/master-cleaning.jpg";
 import certificate1 from "../../images/png/warantee.png";
+import logo from '../../images/png/logo.png'
 import certificate2 from "../../images/png/family-owned.png";
 import Image from "next/image";
 import Link from "next/link";
@@ -9,7 +9,9 @@ const Footer = () => {
   return (
     <div className="flex justify-between bg-[#f5f5f5] px-2 md:px-6 xl:px-12 py-10 mt-[50px] md:mt-[100px]">
       <div className="flex flex-col items-center">
-        <Image alt="logo" className="h-[30px] w-[35px] md:h-[75px] md:w-[90px] lg:h-[90px] lg:w-[105px] xl:h-[105px] xl:w-[120px]" width={120} height={105} src={logo} />
+      <Link href={'/'} className='flex items-center gap-1 md:gap-2'>
+        <Image alt='logo'  className='xl:w-[100px] xl:h-[20px] lg:w-[105px] lg:h-[20px] md:w-[90px] md:h-[20px]  md:block hidden' width={120} height={120} src={logo} />
+      </Link>
         <div className="gap[3px] flex  flex-col items-center md:flex md:flex-row md:gap-4">
           <Image className="hidden lg:block lg:h-[67.5px] lg:w-[70px]" width={70} height={67.5} src={certificate1} alt="cer1" />
           <Image className="hidden lg:block  lg:h-[48.5px] lg:w-[50px] " width={50} height={48.5} src={certificate2} alt="cer2" />

@@ -1,17 +1,19 @@
 'use client'
 import React from 'react'
 import HeroAirDuct from './components/hero-air-duct'
-import BeforeAfterAir from './components/before-after'
 import Pricing from './components/pricing'
 import Reasons from './components/4reasons'
+import BenefitAir from './components/benefitAir'
+import BeforeAfter from './components/before-after'
 
 const AirDuct = () => {
   return (
     <div>
       <HeroAirDuct />
       <div className="container">
-        <BeforeAfterAir />
+        <BenefitAir />
         <Pricing />
+        <BeforeAfter />
         <Reasons />
       </div>
     </div>

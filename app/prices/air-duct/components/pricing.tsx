@@ -32,7 +32,7 @@ const Pricing = () => {
             </div>
             <h4 className='text-black/70 text-[18px]  mt-6 md:mt-12 md:text-[24px] xl:text-[28px] montserrat my-4 font-semibold'>DUCT CLEANING COST</h4>
             <p className='text-black/70 text-[14px] sm:text-[16px] md:text-[18px] mb-5'>Air Duct cleaning price is based on the square footage of your home.</p>
-            <div className="px-2 lg:px-4 place-items-center grid grid-cols-1 items-center text-center justify-center sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3 ">
+            <div className="px-2 flex flex-wrap text-start items-start gap-3 ">
                 <Card>
                     <div className="px-6 py-4 bg-gradient-to-r from-indigo-500 to-purple-600">
                         <CardHeader>1,500 sq. ft. and under</CardHeader>

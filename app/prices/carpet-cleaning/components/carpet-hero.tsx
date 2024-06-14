@@ -8,10 +8,10 @@ const Hero = () => {
   return (
     <div className=' carpet-bg  relative'>
       <div className="container z-10">
-        <div className=" absolute top-32 sm:top-36 xl:top-60 pl-[15px] md:pl-[30px] xl:pl-[40px]">
-          <h2 className='w-full text-white/90 drop-shadow-2xl  montserrat font-bold text-[18px]  sm:text-[24px] md:text-[36px] lg:text-[40px] xl:text-[46px]'>Why is professional carpet cleaning important?
+        <div className=" absolute top-44  xl:top-72 pl-[15px] md:pl-[30px] xl:pl-[40px]">
+          <h2 className='w-full text-black drop-shadow-2xl  montserrat font-bold text-[18px]  sm:text-[24px] md:text-[36px] lg:text-[40px] xl:text-[46px]'>Why is professional carpet cleaning important?
           </h2>
-          <p className='montserrat text-white/90 text-sm sm:text-lg xl:text-xl drop-shadow-2xl w-full'>Professional carpet cleaning can help to create a healthy environment by removing allergens, bacteria, and other harmful particles from your carpets.</p>
+          <p className='montserrat text-black text-sm sm:text-lg xl:text-xl drop-shadow-2xl w-full'>Professional carpet cleaning can help to create a healthy environment by removing allergens, bacteria, and other harmful particles from your carpets.</p>
 
 
           <div className="mt-6 md:mt-12">

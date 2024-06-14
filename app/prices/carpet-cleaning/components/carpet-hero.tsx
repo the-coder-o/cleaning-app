@@ -1,6 +1,6 @@
 import Modal from '@/components/Modal';
 import React from 'react'
-import carper_bg from '@/images/jpg/carpet-bg.jpg';
+import carper_bg from '@/images/jpg/carpet-hero.jpg';
 import Image from 'next/image';
 import { Dialog, DialogTrigger } from '@/components/ui/dialog';
 
@@ -24,7 +24,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="">
-        <Image src={carper_bg} alt='carpet-bg' className='z-0 w-screen object-cover bg-no-repeat h-[60vh] md:h-screen ' />
+        <Image src={carper_bg} alt='carpet-bg' className='z-0 w-screen object-cover bg-no-repeat h-[60vh] md:h-[120vh] ' />
       </div>
     </div>
   )

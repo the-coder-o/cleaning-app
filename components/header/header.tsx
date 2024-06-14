@@ -19,13 +19,12 @@ const Header = () => {
     return window.removeEventListener('scroll', scrollHandler)
   }, [])
   return (
-    <div className='fixed px-3 w-full py-3 backdrop-blur-xl bg-white/70 z-20  md:px-[20px] flex items-center justify-between '>
+    <div className='fixed px-3 w-full py-3 backdrop-blur-xl bg-white/70 z-20  flex items-center justify-between '>
       <Link href={'/'} className='flex items-center gap-1 md:gap-2'>
         <Image alt='logo' width={120} height={120} src={logo} />
       </Link>
+      <a href='tel:(877) 340 - 1327' className='block md:hidden font-semibold montserrat mr-20 text-[10px] sm:text-sm md:text-base lg:text-lg xl:text-xl'>(877) 340 - 1327</a>
       <SheetDemo />
-      {/* 
-          <a href='tel:(877) 340 - 1327' className='font-semibold montserrat leading-[9px]  text-[10px] sm:text-sm md:text-base lg:text-lg xl:text-xl'>(877) 340 - 1327</a> */}
     </div>
   )
 };

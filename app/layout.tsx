@@ -2,10 +2,10 @@
 import { Montserrat, Asap } from "next/font/google";
 
 import Header from "@/components/header/header";
-import Footer from "@/components/footer/footer";
-
 import "./globals.css";
 import ChatWood from "@/chat/chat";
+import Phone from "@/phone/phone";
+
 
 
 const montserrat = Montserrat({
@@ -30,7 +30,6 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body className={`${montserrat.variable} ${asap.variable}`}>
         <Header />
         {children}
-        <Footer />
       </body>
     </html>
   );

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import card1 from "@/images/png/image_12.png";
-import card2 from "@/images/png/photo507781168128286.png";
+import card1 from "@/images/jpg/carpet-img.jpg";
+import card2 from "@/images/jpg/upholstery-img.jpg";
 import card3 from "@/images/png/image_13.png";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";

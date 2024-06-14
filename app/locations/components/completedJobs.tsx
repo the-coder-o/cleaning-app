@@ -11,7 +11,7 @@ import Modal from "@/components/Modal";
 const CompletedJobs = () => {
   return (
     <div className='container'>
-      <h1 className= 'text-center md:text-start ml-0 xl:ml-12 mt-12 md:mt-24 drop-shadow-2xl text-[28px] sm:text-[36px] md:text-[46px] text-black w-full  max-w-[900px] montserrat font-bold'>For over 20 years of service we have completed more than <span className='bg-gradient-to-tr from-blue-500 to-red-500 text-transparent bg-clip-text '>100 000</span> jobs</h1>
+      <h1 className= 'text-center md:text-start ml-0 xl:ml-12 mt-12 md:mt-24 drop-shadow-2xl text-[28px] sm:text-[36px] md:text-[46px] text-black w-full  max-w-[900px] montserrat font-bold'>For over 25 years of service we have completed more than <span className='bg-gradient-to-tr from-blue-500 to-red-500 text-transparent bg-clip-text '>100 000</span> jobs</h1>
 
       <div className=" mt-16 flex flex-col items-center justify-evenly gap-3 px-2 lg:flex-row">
         <div className="">

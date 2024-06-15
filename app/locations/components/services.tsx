@@ -43,7 +43,7 @@ const Services = () => {
             </div>
             <div className="p-6">
               <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                Upholstrey cleaning
+                Upholstery cleaning
               </h5>
             </div>
             <div className="p-6 pt-0">

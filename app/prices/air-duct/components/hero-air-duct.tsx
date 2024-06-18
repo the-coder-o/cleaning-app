@@ -10,7 +10,7 @@ const HeroAirDuct = () => {
     <div className=' carpet-bg  relative'>
   <div className="container z-10">
     <div className=" absolute top-32 sm:top-36 xl:top-60 pl-[15px] md:pl-[30px] xl:pl-[40px]">
-      <h2 className='w-full text-black md:text-black/70 max-w-[680px]  montserrat font-bold text-[18px]  sm:text-[24px] md:text-[36px] lg:text-[40px] xl:text-[46px]'>Save on electricity consumption up to <span className='text-blue-500'>21%</span> on cooling system</h2>
+      <h2 className='w-full text-black md:text-black/70 max-w-[680px]  montserrat font-bold text-[18px]  sm:text-[24px] md:text-[36px] lg:text-[40px] xl:text-[46px]'>Save up to <span className='text-blue-500'>21%</span> on electricity consumption for your cooling system.</h2>
      
 
       <div className="">

@@ -15,7 +15,7 @@ const Faq = () => {
           <AccordionItem value="item-1">
             <AccordionTrigger>WHAT METHOD OF CARPET CLEANING DO YOU USE?</AccordionTrigger>
             <AccordionContent>
-              We use powerfull Truck-mounted mounted steam cleaning (Hot Water Extraction) It is the most effective carpet cleaning method.
+              We use powerfull TRUCK-MOUNTED mounted steam cleaning (Hot Water Extraction) It is the most effective carpet cleaning method.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">

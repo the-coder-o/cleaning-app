@@ -12,7 +12,7 @@ const Specialization = () => {
             <div className="flex gap-3 px-2 flex-wrap justify-between mt-5">
                 <Card className='px-6 py-3 w-full'>
                     <CardHeader className='text-black shadow-none'>
-                        Pet odor & stains removal
+                        Pet odor & stain removal
                     </CardHeader>
                     
                 </Card>
@@ -24,13 +24,13 @@ const Specialization = () => {
                 </Card>
                 <Card className='px-6 py-3 w-full'>
                     <CardHeader className='text-black shadow-none'>
-                        Sanitizer
+                        Sanitizing
                     </CardHeader>
                     
                 </Card>
             </div>
             <div className="mt-12">
-                <h4 className='text-[14px] text-center sm:text-start px-4 w-full max-w-[870px] montserrat md:text-[23px] font-medium'>One room counts up to 180 sq/ft, living/dining combos and L-shape rooms counts as 2 rooms</h4>
+                <h4 className='text-[14px] text-center sm:text-start px-4 w-full max-w-[870px] montserrat md:text-[23px] font-medium'>One room is up to 180 square feet. Living/dining combinations and L-shaped rooms count as two rooms.</h4>
             </div>
         </div>
     )

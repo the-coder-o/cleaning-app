@@ -1,19 +1,12 @@
-// import type { Metadata } from "next";
 import { Montserrat, Asap } from "next/font/google";
-
 import Header from "@/components/header/header";
 import "./globals.css";
 import ChatWood from "@/chat/chat";
-import Phone from "@/phone/phone";
-
-
-
 const montserrat = Montserrat({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   variable: "--font-montserrat",
 });
-
 const asap = Asap({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],

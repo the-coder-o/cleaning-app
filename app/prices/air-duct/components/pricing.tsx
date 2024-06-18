@@ -13,24 +13,24 @@ import Modal from '@/components/Modal'
 const Pricing = () => {
     return (
         <div className='px-6 md:px-12 mt-12 md:mt-24'>
-            <h2 className='text-black/70 montserrat font-bold text-[18px]  sm:text-[24px] md:text-[36px] lg:text-[40px] xl:text-[46px]'>WE USE POWERFUL Truck-mountedMOUNTED SYSTEM</h2>
+            <h2 className='text-black/70 montserrat font-bold text-[18px]  sm:text-[24px] md:text-[36px] lg:text-[40px] xl:text-[46px]'>WE USE POWERFUL TRUCK-MOUNTED SYSTEM</h2>
             <h4 className='text-red-500 text-[14px] sm:text-[18px] md:text-[22px] xl:text-[27px] montserrat my-4 font-medium'>100 % SATISFACTION GUARANTEED</h4>
             <div className="mb-6">
                 <Breadcrumb>
                     <BreadcrumbList>
                         <BreadcrumbItem>
-                            <BreadcrumbPage>ROTARYBRUSH SYSTEM</BreadcrumbPage>
+                            <BreadcrumbPage>Rotary Brush System</BreadcrumbPage>
                         </BreadcrumbItem>
                         <BreadcrumbItem>
                         </BreadcrumbItem>
                         <BreadcrumbSeparator />
                         <BreadcrumbItem>
-                            <BreadcrumbPage>Truck-mountedmounted Vacuum With Negative Pressure System</BreadcrumbPage>
+                            <BreadcrumbPage>Truck-Mounted Vacuum with Negative Pressure System</BreadcrumbPage>
                         </BreadcrumbItem>
                     </BreadcrumbList>
                 </Breadcrumb>
             </div>
-            <h4 className='text-black/70 text-[18px]  mt-6 md:mt-12 md:text-[24px] xl:text-[28px] montserrat my-4 font-semibold'>DUCT CLEANING COST</h4>
+            <h4 className='text-black/70 text-[18px]  mt-6 md:mt-12 md:text-[24px] xl:text-[28px] montserrat my-4 font-semibold uppercase'>Duct cleaning Pricing</h4>
             <p className='text-black/70 text-[14px] sm:text-[16px] md:text-[18px] mb-5'>Air Duct cleaning price is based on the square footage of your home.</p>
             <div className="px-2 flex flex-wrap text-start items-start gap-3 ">
                 <Card>

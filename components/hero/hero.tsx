@@ -17,7 +17,7 @@ const Hero = () => {
         </div>
         <div className="flex flex-wrap gap-2 mt-6 md:mt-12">
           <Badge className="drop-shadow-2xl shadow-blue-500 text-blue-900 text-[14px]" variant={'outline'}>Locally Owned and Operated</Badge>
-          <Badge className="drop-shadow-2xl shadow-blue-500 text-blue-900 text-[14px]" variant={'outline'}>Truck-mounted-mounted state-of-the-art cleaning equipment</Badge>
+          <Badge className="drop-shadow-2xl shadow-blue-500 text-blue-900 text-[14px]" variant={'outline'}>Truck-mounted state-of-the-art cleaning equipment</Badge>
           <Badge className="drop-shadow-2xl shadow-blue-500 text-blue-900 text-[14px]" variant={'outline'}>Fully licensed and insured</Badge>
           <Badge className="drop-shadow-2xl shadow-blue-500 text-blue-900 text-[14px]" variant={'outline'}>Non-toxic  products , safe for children & pets</Badge>
           <Badge className="drop-shadow-2xl shadow-blue-500 text-blue-900 text-[14px]" variant={'outline'}>Over 23 years of experience</Badge>

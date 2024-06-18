@@ -39,7 +39,7 @@ const Specialization = () => {
                 </Card>
             </div>
             <div className="mt-4">
-                <h4 className='text-[16px] w-full max-w-[870px] montserrat md:text-[23px] font-medium '>One of the top benefits of professional upholstery cleaning is that your upholstery cleaning services will help to extend the lifespan of your furniture. When your couch or stuffed chair becomes covered in dirt and stains, chances are that you will want to replace it. However, with the amazing cleaning power that is offered by your cleaning technicians, you can restore your furniture to like new condition
+                <h4 className='text-[16px] w-full max-w-[870px] montserrat md:text-[23px] font-medium '>One of the top benefits of professional upholstery cleaning is that it helps extend the lifespan of your furniture. Dirt and stains on your couch or stuffed chair may prompt you to consider replacement. However, the exceptional cleaning power of professional technicians can restore your furniture to like-new condition.
                 </h4>
             </div>
         </div>

@@ -13,19 +13,19 @@ import Modal from '@/components/Modal'
 const Pricing = () => {
     return (
         <div className='px-6 md:px-12 mt-12 md:mt-24'>
-            <h2 className='text-black/70 montserrat font-bold text-[18px]  sm:text-[24px] md:text-[36px] lg:text-[40px] xl:text-[46px]'>WE USE POWERFUL TRUCK-MOUNTED SYSTEM</h2>
+            <h2 className='text-black/70 montserrat font-bold text-[18px]  sm:text-[24px] md:text-[36px] lg:text-[40px] xl:text-[46px]'>WE USE POWERFUL TRUCK-MOUNTED SYSTEMS</h2>
             <h4 className='text-red-500 text-[14px] sm:text-[18px] md:text-[22px] xl:text-[27px] montserrat my-4 font-medium'>100 % SATISFACTION GUARANTEED</h4>
             <div className="mb-6">
                 <Breadcrumb>
                     <BreadcrumbList>
                         <BreadcrumbItem>
-                            <BreadcrumbPage>Rotary Brush System</BreadcrumbPage>
+                            <BreadcrumbPage>Rotary Brush SYSTEMS</BreadcrumbPage>
                         </BreadcrumbItem>
                         <BreadcrumbItem>
                         </BreadcrumbItem>
                         <BreadcrumbSeparator />
                         <BreadcrumbItem>
-                            <BreadcrumbPage>Truck-Mounted Vacuum with Negative Pressure System</BreadcrumbPage>
+                            <BreadcrumbPage>Truck-Mounted Vacuum with Negative Pressure Systems</BreadcrumbPage>
                         </BreadcrumbItem>
                     </BreadcrumbList>
                 </Breadcrumb>

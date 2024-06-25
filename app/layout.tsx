@@ -26,7 +26,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <Header />
         {children}
         <Footer />
-        <a href={"tel:(804) 852-8030"} className={"fixed bottom-24 right-8 flex h-[50px] w-[50px] items-center justify-center rounded-full bg-[#9BCC11] "}>
+        <a href={"tel:(804) 852-8030"} className={"fixed bottom-24 right-8 flex h-[50px] w-[50px] items-center justify-center rounded-full bg-[#79E86D] "}>
           <i className="fa-solid fa-phone fa-shake text-white"></i>
         </a>
       </body>

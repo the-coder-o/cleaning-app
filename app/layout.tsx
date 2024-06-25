@@ -25,7 +25,6 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body className={`${montserrat.variable} ${asap.variable}`}>
         <Header />
         {children}
-        <Footer />
         <a href={"tel:(804) 852-8030"} className={"fixed bottom-24 right-8 flex h-[50px] w-[50px] items-center justify-center rounded-full bg-[#79E86D] "}>
           <i className="fa-solid fa-phone fa-shake text-white"></i>
         </a>

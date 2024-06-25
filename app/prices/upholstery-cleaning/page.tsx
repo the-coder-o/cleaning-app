@@ -1,16 +1,18 @@
 'use client' 
 import React from 'react'
 import HeroUpholstery from './components/hero'
-import Specialization from './components/specialization'
 import Pricing from './components/pricing'
+import Specialization from './components/specialization'
+import BeforeAfter from './components/before-after'
 
 const UpholsteryCleaning = () => {
   return (
     <div>
       <HeroUpholstery />
       <div className="container">
-      <Specialization/>
       <Pricing/> 
+      <BeforeAfter />
+      <Specialization/>
       </div>
           </div>
   )

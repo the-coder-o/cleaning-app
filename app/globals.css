@@ -10,26 +10,31 @@
     box-sizing: border-box;
 
 
-    -webkit-tap-highlight-color: transparent;
+    /* -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none;
+    user-select: none; */
 }
 
 
 
 .bg{
-    background-image: url('https://static.tildacdn.one/tild6433-3437-4636-b462-663033323164/cleaning-service-wor.jpg');
+    background-image: url('../images/jpg/hero-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     width: 100%;
-    height: 120vh;
+    height: 95vh;
     background-attachment: fixed;
-    
+}
+
+@media (max-width:620px) {
+    .bg{
+        height:80vh;
+    }
 }
 
 
@@ -84,12 +89,6 @@
 .opinions-bg{
     background-position: center center;
 }
-/* .hero-bg{
-    background-image:url('https://static.tildacdn.one/tild3430-3034-4361-a665-353235376662/Group_105_1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-} */
 
 .carpet-bg{
     background-image: url('https://static.tildacdn.one/tild3161-6433-4766-b238-333237666534/photo503536338992009.jpg');

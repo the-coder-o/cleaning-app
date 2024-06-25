@@ -10,10 +10,8 @@ import Modal from "@/components/Modal";
 
 const CompletedJobs = () => {
   return (
-    <div className="container">
-      <h1 className="montserrat ml-0 mt-12 w-full max-w-[900px] text-center text-[28px] font-bold text-black drop-shadow-2xl sm:text-[36px] md:mt-24  md:text-start md:text-[46px] xl:ml-12">
-        For over 20 years of service we have completed more than <span className="text-lime-400 ">100 000</span> jobs
-      </h1>
+    <div className='container'>
+      <h1 className= 'text-center md:text-start ml-0 xl:ml-12 mt-12 md:mt-24 drop-shadow-2xl text-[28px] sm:text-[36px] md:text-[46px] text-black w-full  max-w-[900px] montserrat font-bold'>For over 25 years of service we have completed more than <span className='bg-gradient-to-tr from-blue-500 to-red-500 text-transparent bg-clip-text '>100 000</span> jobs</h1>
 
       <div className=" mt-16 flex flex-col items-center justify-evenly gap-3 px-2 lg:flex-row">
         <div className="">
@@ -48,11 +46,11 @@ const CompletedJobs = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-center text-center">
-        <Dialog>
-          <DialogTrigger className="montserrat mx-3 mb-4 mt-4 flex w-[320px] items-center justify-center rounded-xl  bg-lime-400 px-[4px] py-2 text-center  text-base font-semibold  text-white outline-none transition-all duration-200 hover:bg-lime-500 focus:border-none md:mt-12 md:px-2 md:py-3 md:text-lg xl:w-[225px] xl:px-3 xl:py-2">BOOK NOW</DialogTrigger>
-          <Modal />
-        </Dialog>
+      <div className="flex justify-center text-center items-center">
+      <Dialog>
+        <DialogTrigger className='mt-4 mx-3 md:mt-12 mb-4 w-96 block rounded-full px-4 py-2 font-semibold text-center text-white bg-gradient-to-r from-black/65  via-gray-600 to-black/65 focus:bg-indigo-700 focus:outline-none'>BOOK NOW</DialogTrigger>
+        <Modal />
+      </Dialog>
       </div>
     </div>
   );

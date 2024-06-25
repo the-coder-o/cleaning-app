@@ -1,6 +1,6 @@
 import Modal from '@/components/Modal';
 import React from 'react'
-import carper_bg from '@/images/jpg/carpet-bg.jpg';
+import carper_bg from '@/images/jpg/carpet-hero.jpg';
 import Image from 'next/image';
 import { Dialog, DialogTrigger } from '@/components/ui/dialog';
 
@@ -8,22 +8,20 @@ const Hero = () => {
   return (
     <div className=' carpet-bg  relative'>
       <div className="container z-10">
-        <div className=" absolute top-32 sm:top-36 xl:top-60 pl-[15px] md:pl-[30px] xl:pl-[40px]">
-          <h2 className='w-full max-w-[680px]  montserrat font-bold text-[18px]  sm:text-[24px] md:text-[36px] lg:text-[40px] xl:text-[46px]'>Professional
-            <span className='flex gap-3'><span className='text-red-600'> carpet cleaning</span><span> service</span></span></h2>
-          <h4 className='text-[14px] sm:text-[18px] md:text-[24px] xl:text-[28px] font-semibold montserrat w-full max-w-[180px] sm:max-w-[380px] mt-5 md:mt-16'>Over <span className='text-red-600'>100 000</span> satisfied customers</h4>
-
-          <div className="">
-        <Dialog>
-            <DialogTrigger className=' transition-all duration-200 montserrat text-[10px] md:text-[12px] xl:text-base mt-[5px] bg-lime-400 hover:bg-lime-500 outline-none focus:border-none text-white font-semibold rounded-xl  py-3 px-8 md:py-3 md:px-7 xl:py-4 xl:px-12'>BOOK NOW</DialogTrigger>
-            <Modal/>
-          </Dialog>
-          <p className='text-black w-[230px] montserrat text-[12px] md:text-[16px] mt-[10px] xl:mt-[20px]'>Leave a request on the site and get a 5 % discount on the first cleaning</p>
-        </div>
+        <div className=" absolute top-44  xl:top-72 pl-[15px] md:pl-[30px] xl:pl-[40px]">
+          <h2 className='w-full text-black drop-shadow-2xl  montserrat font-bold text-[18px]  sm:text-[24px] md:text-[36px] lg:text-[40px] xl:text-[46px]'>Why is professional carpet cleaning important?
+          </h2>
+          <p className='montserrat text-black text-sm sm:text-lg xl:text-xl drop-shadow-2xl w-full'>Professional carpet cleaning can help to create a healthy environment by removing allergens, bacteria, and other harmful particles from your carpets.</p>
+          <div className="mt-6 md:mt-12">
+          <Dialog>
+              <DialogTrigger className='  text-[10px] sm:text-[12px] md:text-[16px] rounded-full  px-4 py-2 md:px-12 font-semibold text-center text-white bg-gradient-to-r from-indigo-500 to-purple-600 focus:bg-indigo-700 focus:outline-none mt-auto'>BOOK NOW</DialogTrigger>
+              <Modal />
+            </Dialog>
+          </div>
         </div>
       </div>
       <div className="">
-        <Image src={carper_bg} alt='carpet-bg' className='z-0 w-screen object-cover bg-no-repeat h-[60vh] md:h-screen ' />
+        <Image src={carper_bg} alt='carpet-bg' className='z-0 w-screen object-cover bg-no-repeat h-[60vh] md:h-[120vh] ' />
       </div>
     </div>
   )
